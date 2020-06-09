@@ -55,8 +55,8 @@ app.post("/", (req, res) => {
 });
 
 //Start Listening
-app.listen(3000, () => {
-  console.log("server is running on port 3000");
+app.listen(process.env.PORT || 3000, () => {
+  console.log("server is running ... ");
 });
 
 // c4fad968118a5603d76392702a3dc1ce-us19
